@@ -5,6 +5,12 @@ interface Addition {
 
 public class Main{
   public static void main (String [] args){
-    //this is main class
+    Addition x = (a, b) -> {
+      int sum = 0;
+      for(int i = a; i <= b; i++) {
+        sum += i;
+      }
+      return sum;
+    };
   }
 }
