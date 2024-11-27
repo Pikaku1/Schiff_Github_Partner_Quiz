@@ -8,5 +8,6 @@ public class Main{
       return sum;
     };
     System.out.println(x.add(Integer.parseInt(args[0]), Integer.parseInt(args[1])));
+    //Mohammed Sadiq && Aliasgar Mullamithawala
   }
 }
